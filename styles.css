@@ -39,10 +39,11 @@
   user-select: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 820px) {
   .wrapper {
     height: 40rem;
     width: 40rem;
+    margin-top: 12%;
   }
 
   .clock {
@@ -51,9 +52,15 @@
 }
 
 @media screen and (max-width: 600px) {
+  html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .wrapper {
     height: 30rem;
     width: 30rem;
+    margin-top: 35%;
   }
 
   .clock {

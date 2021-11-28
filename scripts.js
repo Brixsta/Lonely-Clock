@@ -48,8 +48,6 @@ const appendTime = () => {
     clock.textContent = currentTime;
 }
 
-
-
 setInterval(()=>{
     appendTime();
 },1000);
